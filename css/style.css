@@ -377,9 +377,9 @@ body p {
 }
 
 .about .row .content p {
+  font-family: "Poppins", sans-serif;
   margin-bottom: 0.8rem;
-  font-size: 1.4rem;
-  font-weight: bold;
+  font-size: 1.1rem;
   line-height: 1.6;
   text-align: justify;
 }
@@ -410,7 +410,7 @@ body p {
 .production-card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -418,9 +418,10 @@ body p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 25vw;
+  width: 45%;
   border: 1px solid #ddd;
   border-radius: 8px;
+  overflow: hidden;
   margin: 20px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -440,17 +441,17 @@ body p {
   font-size: 1.2rem;
 }
 
+.production-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .production-card-details p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 0.9rem;
   color: #555;
-}
-
-.production-card-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .production-buy-link {
