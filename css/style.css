@@ -27,17 +27,14 @@ html {
 }
 
 body {
-  font-family: "neue", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #000;
 }
 
-body p {
-  font-family: neuel;
-}
-
 /* Navbar */
 .navbar {
+  font-family: "neue", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -143,14 +140,14 @@ body p {
 }
 
 .hero .content h1 {
-  font-size: 5em;
+  font-size: 4em;
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   line-height: 1.2;
 }
 
 .hero .content p {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   line-height: 1.4;
@@ -189,7 +186,7 @@ body p {
 .product h2,
 .contact h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 .product h2 span {
@@ -202,8 +199,7 @@ body p {
   max-width: 80rem;
   margin: auto;
   line-height: 1.6;
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .product .row {
