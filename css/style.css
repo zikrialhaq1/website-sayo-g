@@ -34,7 +34,6 @@ body {
 
 /* Navbar */
 .navbar {
-  font-family: "neue", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,12 +48,12 @@ body {
 }
 
 .navbar .navbar-logo {
+  font-family: "neue", sans-serif;
   display: flex;
   align-items: center;
   font-size: 2rem;
   font-weight: 700;
   color: #000;
-  font-style: italic;
 }
 
 .navbar .navbar-logo span {
@@ -64,7 +63,7 @@ body {
 .navbar .navbar-nav a {
   color: #fff;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0 1rem;
 }
 
@@ -209,6 +208,12 @@ body {
   justify-content: center;
 }
 
+.product-card {
+  justify-content: center;
+  width: 45%;
+  margin: 5px auto;
+}
+
 .product .row .product-card {
   text-align: center;
   padding-bottom: 4rem;
@@ -216,7 +221,7 @@ body {
 
 .product .row .product-card img {
   border-radius: 10%;
-  width: 80%;
+  width: 100%;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
@@ -399,8 +404,7 @@ body {
   max-width: 400rem;
   margin: auto;
   line-height: 1.6;
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .production-card-container {
